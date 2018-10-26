@@ -10,6 +10,7 @@ html{
   text-align: center;
 }
 .header_container{
+  z-index: 15;
   position: fixed;
   display: flex;
   flex-flow: row nowrap;
@@ -47,4 +48,52 @@ html{
   font-size: 22px;
   color: seashell;
   padding: 10px;
+}
+.mission_container{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.mission_img_container img{
+  top: 69px;
+  height: 700px;
+  width: auto;
+
+}
+.mission_statement_container{
+  position: absolute;
+  top: 325px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 0;
+}
+.mission_statement_container h4{
+  margin-top: 2px;
+}
+.mission_statement_container h2{
+  margin-bottom: 0;
+}
+.featured_tea_container{
+
+}
+.monthly_tea_photos{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.monthly_tea_photos img{
+  height: 200px;
+  width: 300px;
+  margin: 25px 25px;
+}
+.monthly_tea_photos h4{
+  margin: auto 10px;
 }
