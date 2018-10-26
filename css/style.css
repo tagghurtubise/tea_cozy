@@ -50,18 +50,18 @@ html{
   padding: 10px;
 }
 .mission_container{
-  display: flex;
-  flex-flow: column nowrap;
-}
-.mission_img_container img{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: 100% 100%;
   top: 69px;
   height: 700px;
-  width: auto;
-
+  margin: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .mission_statement_container{
-  position: absolute;
-  top: 325px;
   width: 100%;
   height: auto;
   background-color: black;
@@ -79,9 +79,6 @@ html{
 .mission_statement_container h2{
   margin-bottom: 0;
 }
-.featured_tea_container{
-
-}
 .monthly_tea_photos{
   display: flex;
   flex-flow: row wrap;
@@ -96,4 +93,60 @@ html{
 }
 .monthly_tea_photos h4{
   margin: auto 10px;
+}
+.locations_big_container{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: 100% 100%;
+  height: 500px;
+  margin: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.locations_header{
+  margin-bottom: 0;
+}
+.locations_small_container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+.downtown_location{
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: .90;
+
+}
+.eastbay_location{
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: .90;
+}
+.oakdale_location{
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: .90;
 }
